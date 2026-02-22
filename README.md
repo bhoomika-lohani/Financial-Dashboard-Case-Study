@@ -1,48 +1,81 @@
-# Financial Dashboard – Case Study
+# Financial Performance & Working Capital Dashboard – Power BI Case Study
+
+## Project Background
+
+As a Data Analyst in the Finance team, the task was to build a monthly interactive financial dashboard in Power BI that helps to monitor the company’s overall financial health and key performance indicators, with the ability to filter by time period and other important business metrics.
 
 ## Objective
-The objective of this project was to build an interactive, monthly-level financial dashboard in Power BI to help stakeholders monitor the company’s overall financial performance. The dashboard focuses on key financial KPIs, trends, budget tracking, cash flow, and working capital, enabling data-driven decision-making.
 
----
+To design and deliver interactive dashboards that allows to:
 
-## Data Overview
-The dataset contains monthly financial and operational data, including:
-- Profit & Loss metrics such as Revenue, COGS, Gross Profit, Operating Expenses, and EBITDA  
-- Cash flow information including Cash Inflows, Cash Outflows, and Net Cash  
-- Budgeted versus actual revenue figures  
-- Product-level revenue data  
-- Receivables aging information  
+- Track revenue and profitability trends
+- Compare budget vs actual performance
+- Monitor cash flow and net cash position
+- Analyze working capital and receivables
+- Filter data by month, quarter, year, product, and region
 
-A separate Date table was created to support accurate filtering by month, quarter, and year and to ensure consistency across all visuals.
+## Tools Used
 
----
+- Power BI
+- Power Query
+- DAX
+- Data Modeling 
 
-## Key KPIs and Calculations
-The dashboard highlights the following key performance indicators:
-- **Total Revenue**: Sum of actual revenue for the selected period  
-- **Net Cash**: Difference between total cash inflows and cash outflows  
-- **Gross Margin %**: Gross Profit divided by Total Revenue  
-- **EBITDA %**: EBITDA divided by Total Revenue  
+## Dashboard Structure
 
-All KPIs were created using DAX measures to ensure correct aggregation and responsiveness to filters.
+### 1. Financial Performance Overview
 
----
+This dashboard focuses on overall financial performance profitability and gives a quick summary of how the company is performing financially.
 
-## Key Insights from the Dashboard
-- **Revenue, Gross Profit & EBITDA Trend** shows how revenue growth translates into profitability over time and helps identify fluctuations in margins.  
-- **Budget vs Actual Revenue** compares planned revenue against actual performance on a monthly basis, making it easier to identify periods of over- or under-performance.  
-- **Product Performance Analysis** highlights revenue contribution by product or service, clearly identifying top-performing and lower-performing offerings.  
-- **Cash Flow Analysis** displays monthly cash inflows, cash outflows, and net cash, helping assess liquidity trends and cash sustainability.  
-- **Receivables Aging Analysis** groups outstanding receivables into aging buckets to highlight potential collection risks and working capital concerns.
+**KPIs Included:**
+- Total Revenue
+- Gross Margin %
+- EBITDA %
+- Net Cash Position
 
----
+**Visuals:**
+- Revenue & EBITDA trend (monthly view)
+- Budget vs Actual Revenue with variance %
+- Revenue by Product / Service
 
-## Assumptions and Limitations
-- Budget values are assumed to be planned at a monthly level.  
-- Receivables aging uses revenue as a proxy due to the absence of invoice-level receivable amounts.  
-- The dashboard is designed for high-level financial monitoring and does not replace detailed accounting or statutory reports.
+### 2. Working Capital & Cash Flow Analysis
 
----
+This dashboard focuses on liquidity and operational performance and helps to understand cash movement, working capital behavior, and collection efficiency.
+
+**KPIs Included:**
+- Net Cash Position
+- Net Cash Change %
+- Average Receivable Days
+- Average Payable Days
+
+**Visuals:**
+- Monthly Cash Inflows vs Outflows
+- Receivables Aging Distribution
+- Revenue to EBITDA Bridge (Waterfall)
+- Monthly Working Capital Trend
+
+## Interactivity
+
+The dashboard includes:
+
+- Time period selector (Month / Quarter / Year)
+- Date filter
+- Product filter
+- Region filter
+- Drill-down capability at month level
+
+All visuals respond dynamically to slicers and filters.
+
+## Key Insights
+
+- Revenue growth influences EBITDA, but margin changes depend on cost structure.
+- Budget vs Actual comparison highlights periods of over- or under-performance.
+- Some months show higher cash outflows, impacting net cash position.
+- Receivables aging highlights potential collection risk areas.
+- Working capital trends reflect operational efficiency changes over time.
 
 ## Conclusion
-This financial dashboard provides a consolidated and interactive view of the company’s financial health. It enables stakeholders to track performance, compare actuals against budgets, monitor cash flow, and identify potential risks, supporting informed and timely business decisions.
+
+This project delivers an interactive financial reporting solution that combines profitability analysis, budget tracking, cash flow monitoring, and working capital insights in a structured format.
+
+It enables business to monitor performance and make informed decisions based on monthly financial data.
