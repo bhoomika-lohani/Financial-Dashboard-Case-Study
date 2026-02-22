@@ -74,6 +74,12 @@ All visuals respond dynamically to slicers and filters.
 - Receivables aging highlights potential collection risk areas.
 - Working capital trends reflect operational efficiency changes over time.
 
+## Files Included
+
+- Complete Power BI dashboard file
+- Dashboard screenshots
+- Raw dataset
+
 ## Conclusion
 
 This project delivers an interactive financial reporting solution that combines profitability analysis, budget tracking, cash flow monitoring, and working capital insights in a structured format.
